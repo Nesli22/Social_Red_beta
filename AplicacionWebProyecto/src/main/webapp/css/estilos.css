@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    background-color: #34495E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+}
+
+.header{
+    height: 70px;
+    width: auto;
+}
+
+.header .btn{
+    font-weight: 700;
+    background-color: #34495E;
+    color: #34495E;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header .nombreUsuario{
+    color: white;
+}
+
+.header .btn:hover{
+    background-color: #34495E;
+    color: white;
+   
+}
+
+.main{
+    background-color: white;
+    width: 100%;
+    height: 80em;
+    display: block;
+    
+    }
+
+.frm{
+    max-width: 400px;
+    margin: 6em auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+   }
+
+   .panel{
+       margin: 0 auto;
+       width: 350px;
+       display: block;
+       border: 1px solid #ccc;
+       padding: 10px;
+       box-sizing: border-box;
+   }
+
+   .lblPanel{
+       font-size: 14px;
+       color: gray;
+   }
+
+.publicar {
+    margin: 0 auto;
+    width: 400px; 
+    height: 230px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.muro{
+    margin: 0 auto;
+    width: 400px; 
+    gap: 1em;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.publicacion {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 5em;
+}
+
+.publicacion h3 {
+    color: #34495E;
+}
+
+.publicacion p {
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: gray;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    color: gray;
+}
+
+input[type="submit"] {
+    background-color: #34495E;;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #34495E;;
+}
+
+
+.registrar, .titulo{
+            margin-top: 15px;
+            display: inline-block;
+            text-decoration: none;
+            color: #34495E;
+}
+
+.contenedorRadios {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.contenedorRadios label {
+    margin-right: 20px;
+}
+
+
+.footer {
+    background-color: #34495E;
+    color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+p{
+    margin: 10px;
+}
